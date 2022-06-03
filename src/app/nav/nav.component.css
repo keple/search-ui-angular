@@ -1,0 +1,22 @@
+.toolbar {
+  display:grid;
+  gap : 1px;
+  min-width:100%;
+  min-height:100%;
+}
+.nav-front {
+  grid-column-start : 1;
+  grid-column-end : 3;
+  background-color : #1976d2;
+}
+.nav-center {
+  grid-column-start : 3;
+  grid-column-end : 8;
+  background-color : #f0f3f6;
+}
+.nav-end {
+  grid-column-start : 8;
+  grid-column-end:9;
+  background-color : hotpink;
+}
+

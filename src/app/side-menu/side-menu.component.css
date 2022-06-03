@@ -1,0 +1,10 @@
+.row-flex {
+  display:flex;
+  flex-direction: column;
+  width:100%;
+}
+.menu-item {
+  width:100%;
+  padding: 10px;
+  color:white;
+}

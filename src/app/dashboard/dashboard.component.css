@@ -1,0 +1,27 @@
+body {
+  margin:0 !important;
+}
+.grid-container {
+  display:grid;
+  grid-template-columns: auto;
+  height:100%;
+  width:100%;
+}
+.top-nav {
+  height:5vh;
+}
+.contents-area {
+  display:grid;
+  width: 100vw;
+  height: 90vh;
+}
+.area-side-menu {
+  background-color:#888888;
+  grid-column-start:1;
+  grid-column-end:2;
+}
+.area-contents {
+  grid-column-start:2;
+  grid-column-end:20;
+}
+
