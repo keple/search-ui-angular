@@ -1,0 +1,24 @@
+body {
+  margin:0 !important;
+}
+.grid-container {
+  display:grid;
+  grid-template-columns: repeat(10,1fr);
+  grid-template-rows : min-content auto;
+  height:100vh;
+  width:100%;
+}
+.top-nav {
+  grid-column-start :1;
+  grid-column-end : 11;
+  grid-row-start : 1;
+  grid-row-end : 2;
+
+}
+.contents-area {
+  grid-column-start :1;
+  grid-column-end : 11;
+  grid-row-start : 2;
+  grid-row-end : auto;
+}
+
