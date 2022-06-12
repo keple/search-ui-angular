@@ -15,7 +15,10 @@ import { SearchViewComponent } from './search-view/search-view.component';
 import { AppRoutingModule } from './app-routing.module';
 import { FileViewComponent } from './file-view/file-view.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
-import {MatCardModule} from "@angular/material/card";
+import {MatCardModule} from '@angular/material/card';
+import {MatInputModule} from '@angular/material/input';
+import { MiniCardComponent } from './mini-card/mini-card.component';
+import {ResourceModule} from '../resources/resource.module';
 
 @NgModule({
   declarations: [
@@ -25,19 +28,22 @@ import {MatCardModule} from "@angular/material/card";
     MenuItemComponent,
     SearchViewComponent,
     FileViewComponent,
-    DashboardComponent
+    DashboardComponent,
+    MiniCardComponent
   ],
-  imports: [
-    BrowserModule,
-    BrowserAnimationsModule,
-    MatIconModule,
-    MatExpansionModule,
-    MatMenuModule,
-    MatButtonModule,
-    MockServiceModule,
-    AppRoutingModule,
-    MatCardModule
-  ],
+    imports: [
+        BrowserModule,
+        BrowserAnimationsModule,
+        MatIconModule,
+        MatExpansionModule,
+        MatMenuModule,
+        MatButtonModule,
+        MockServiceModule,
+        AppRoutingModule,
+        MatCardModule,
+        MatInputModule,
+        ResourceModule
+    ],
   providers: [],
   bootstrap: [MainFrameComponent]
 })

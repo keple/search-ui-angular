@@ -1,0 +1,12 @@
+<div class="full img-filter bg-img-{{backgroundResource}}">
+  <div class="card-container full">
+    <div class="title">
+      <p class="title-text">{{title}}</p>
+    </div>
+    <div class="download-button-area">
+      <div class="download-btn m-r-30" (mouseover)="active()" (mouseout)="inActive()">
+        <span>{{title}}_리소스</span>  <i [@hoverButton]="state" (@hoverButton.done)="onEnd($event)"class="fa-solid fa-xl fa-angles-right"></i>
+      </div>
+    </div>
+  </div>
+</div>

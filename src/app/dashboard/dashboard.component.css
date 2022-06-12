@@ -10,8 +10,23 @@
   grid-column-end :4;
   grid-row-start: 1;
   grid-row-end : 3;
-  background-image: url("../../assets/background-image/hd-wallpaper-g974af43f3_1920.jpg");
+  /*background-image: url("../../assets/background-image/hd-wallpaper-g974af43f3_1920.jpg");*/
+  background-color : #24292e;
   background-repeat: no-repeat;
   background-size: 100%;
   opacity : .7;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.super-big-text {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 350px;
+  color:white;
+}
+.files-area {
+  display:grid;
+  grid-column-start : 1;
+  grid-column-end : 4;
+  grid-template-columns : 33% 33% 33%;
 }
